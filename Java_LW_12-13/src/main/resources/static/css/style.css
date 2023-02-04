@@ -1,0 +1,121 @@
+body{
+    padding: 15px 0 0;
+    margin: 0;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-size: 16pt;
+    display: flex;
+    justify-content: center;
+}
+h1,h2,h3,h4,p{
+    padding: 0;
+    margin: 0;
+}
+.page{
+    height: 29.7cm;
+    width: 21cm;
+    border: 1px solid black;
+    padding: 2cm 1.5cm 2cm 3cm;
+}
+.subtext{
+    font-size: 10pt;
+}
+.underlined{
+    border-bottom: 1px solid black;
+    padding-right: 12pt;
+    padding-left: 12pt;
+}
+
+.upper p{
+    text-align: center;
+}
+.theme-block{
+    margin-top: 80pt;
+    text-align: center;
+}
+.header{
+    font-size: 20pt;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.bold{
+    font-weight: bold;
+
+}
+.created-by{
+    text-align: justify;
+    margin-top: 28pt;
+    margin-left: 9cm;
+}
+.created-by p.underlined{
+    text-align: center;
+}
+.created-by p.subtext{
+    text-align: center;
+}
+.names{
+    display: grid;
+    grid-template-columns: 4cm auto;
+    grid-column-gap: 0.5cm;
+}
+.names>div{
+    margin-top: 10pt;
+}
+
+.data-signature-mark{
+    margin-top: 60pt;
+}
+.split{
+    display: grid;
+    grid-template-columns: 8.5cm auto;
+    grid-column-gap: 2cm;
+}
+.split p.subtext{
+    text-align: center;
+}
+.signatures{
+    display: grid;
+    grid-template-columns: 4cm auto;
+    grid-column-gap: 0.5cm;
+}
+.signatures>div{
+    margin-top: 10pt;
+}
+.mark{
+    display: grid;
+    grid-template-columns: 6.5cm auto;
+    grid-column-gap: 0.5cm;
+}
+.mark>div{
+    margin-top: 10pt;
+}
+
+.place-year{
+    text-align: center  ;
+    margin-top: 0pt;
+}
+.speciality{
+    display: inline-flex;
+    width: 8.1cm;
+    justify-content: center;
+}
+.course{
+    display: inline-flex;
+    width: 1.1cm;
+    justify-content: center;
+}
+.group{
+    display: inline-flex;
+    width: 2.55cm;
+    justify-content: center;
+}
+.day-year{
+    display: inline-flex;
+    width: 0.5cm;
+    justify-content: center;
+}
+.month{
+    display: inline-flex;
+    width: 1.7cm;
+    justify-content: center;
+}
